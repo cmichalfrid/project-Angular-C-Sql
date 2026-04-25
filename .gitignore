@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.angular/
+
+bin/
+obj/
+.vs/
+
+*.user
+*.suo
+*.cache
+*.log
+
+.env
