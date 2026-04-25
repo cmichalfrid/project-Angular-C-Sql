@@ -1,0 +1,55 @@
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.deps.json
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.dll
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.pdb
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfoInputs.cache
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfo.cs
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.csproj.CoreCompileInputs.cache
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.dll
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\obj\Debug\net8.0\refint\Dto_Common_Enteties.dll
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.pdb
+D:\Angular\Angular Project\New folder\Dal_Repository\Dto_Common_Enteties\obj\Debug\net8.0\ref\Dto_Common_Enteties.dll
+E:\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.deps.json
+E:\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.dll
+E:\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.pdb
+E:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+E:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfoInputs.cache
+E:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfo.cs
+E:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.csproj.CoreCompileInputs.cache
+E:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.dll
+E:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\refint\Dto_Common_Enteties.dll
+E:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.pdb
+E:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\ref\Dto_Common_Enteties.dll
+D:\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.deps.json
+D:\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.dll
+D:\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.pdb
+D:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfoInputs.cache
+D:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfo.cs
+D:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.csproj.CoreCompileInputs.cache
+D:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.dll
+D:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\refint\Dto_Common_Enteties.dll
+D:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.pdb
+D:\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\ref\Dto_Common_Enteties.dll
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.deps.json
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.dll
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.pdb
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfoInputs.cache
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfo.cs
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.dll
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\refint\Dto_Common_Enteties.dll
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.pdb
+C:\Users\1\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\ref\Dto_Common_Enteties.dll
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.deps.json
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.dll
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\bin\Debug\net8.0\Dto_Common_Enteties.pdb
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfoInputs.cache
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.AssemblyInfo.cs
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.csproj.CoreCompileInputs.cache
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.dll
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\refint\Dto_Common_Enteties.dll
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\Dto_Common_Enteties.pdb
+C:\Users\גדעון\Documents\Angular Project\c#\Project\Dto_Common_Enteties\obj\Debug\net8.0\ref\Dto_Common_Enteties.dll
