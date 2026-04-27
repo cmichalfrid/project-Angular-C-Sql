@@ -1,0 +1,42 @@
+<div *ngIf="!isDisplay">
+  <div class="age-filter">
+    <label for="age-input">הכנס גיל:</label>
+    <input type="number" [(ngModel)]="age" placeholder="הכנס גיל" />
+    <button (click)="sortCategory(category1)">מיין קטגוריה</button>
+    <button (click)="filterAge()">מיין גיל</button>
+  </div>
+  <div class="age-filter">
+    <button (click)="sortPrice()">מיין</button>
+  </div>
+  <label for="category">בחר קטגוריה:</label>
+
+  <select id="category" name="category" [(ngModel)]="category1">
+    <option value="Assembly_games">Assembly_games</option>
+    <option value="Strategy_games">Strategy_games</option>
+    <option value="Mind_games">Mind_games</option>
+    <option value="Card_games">Card_games</option>
+    <option value="Board_games">Board_games</option>
+  </select>
+
+  <ul *ngFor="let product of productList1">
+    <a (click)="details(product)" class="product-item">
+      <div class="product-card">
+        <div class="product-info">
+          <h3>{{ product.productName }}</h3>
+          <img src="{{product.picture}}" style="width: 200px; height: 200px;">
+          <p><strong>Description:</strong> {{ product.productDes }}</p>
+          <p><strong>Price:</strong> ${{ product.price }}</p>
+          <p><strong>Age:</strong> {{ product.targetAge }}+</p>
+          <p><strong>lastUpdate:</strong> {{ product.lastUpdate }}</p>
+          <p><strong>Category Name:</strong> {{ product.categoryName }}</p>
+          <p><strong>Company Name:</strong> {{ product.companyName }}</p>
+        </div>
+      </div>
+    </a>
+  </ul>
+
+</div>
+
+
+
+<app-toy-details [ProductToDisplay]="ProductToDisplay" (goBack)="return()" *ngIf="isDisplay"></app-toy-details>

@@ -1,0 +1,40 @@
+<div *ngIf="!isFinish">
+  <div id="emptycart" *ngIf="shoppingCart1.length === 0">
+    <h2>הסל ריק</h2>
+    <p>הוסיפו מוצרים לסל הקניות שלכם!</p>
+  </div>
+  <div *ngIf="shoppingCart1.length > 0">
+    <ul *ngFor="let product of shoppingCart1">
+      <div class="product-info">
+        <div class="product-card">
+          <h3>{{ product.productName }}</h3>
+          <img src="{{product.picture}}" style="width: 200px; height: 200px;">
+          <p><strong>Description:</strong> {{ product.productDes }}</p>
+          <p><strong>Price:</strong> ${{ product.price }}</p>
+          <p><strong>Age:</strong> {{ product.targetAge }}+</p>
+          <p><strong>lastUpdate:</strong> {{ product.lastUpdate }}</p>
+          <p><strong>Category Name:</strong> {{ product.categoryName }}</p>
+          <p><strong>Company Name:</strong> {{ product.companyName }}</p>
+          <button (click)="delete(product)" class="delete-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
+              <path d="M19 13H5v-2h14v2z" />
+            </svg>
+
+          </button>
+          <p>{{product.amount}}</p>
+        </div>
+      </div>
+    </ul>
+    <div class="age-filter">
+
+      <button (click)="finish()">לתשלום</button><br>
+    </div>
+    <p>total to pay:${{sum1}}</p>
+  </div>
+</div>
+<div *ngIf="isFinish">
+  <h1> הכנס פרטי כרטיס אשראי</h1>
+  <p>הערה:</p>
+  <input type="text" [(ngModel)]="note" />
+  <button (click)="ok()">אישור תשלום</button>
+</div>

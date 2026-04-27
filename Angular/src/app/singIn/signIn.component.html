@@ -1,0 +1,42 @@
+<div class="overlay" *ngIf="!isSignedIn">
+  <div class="popup">
+    <form [formGroup]="signIn">
+      <!-- טופס של בדיקת טלפון -->
+      <div *ngIf="!show">
+        <div class="input-container">
+          <label for="phoneNumber">Phone Number</label>
+          <input [(ngModel)]="checkNumber" placeholder="*שדה חובה" type="text" id="checkPhoneNumber"
+            formControlName="phoneNumber" required>
+        </div>
+        <button id="a" type="button" (click)="checkNumberExsist(checkNumber)">בדוק האם לקוח קיים</button>
+      </div>
+
+      <!-- טופס הרשמה -->
+      <div *ngIf="show">
+        <h1>Sign Up</h1>
+
+        <div class="input-container">
+          <label for="fullName">Full Name</label>
+          <input placeholder="*שדה חובה" type="text" id="signUpFullName" formControlName="fullName" required>
+        </div>
+
+        <div class="input-container">
+          <label for="phoneNumber">Phone Number</label>
+          <input placeholder="*שדה חובה" type="text" id="signUpPhoneNumber" formControlName="phoneNumber" required>
+        </div>
+
+        <div class="input-container">
+          <label for="email">Email</label>
+          <input placeholder="*שדה חובה" type="email" id="signUpEmail" formControlName="email" required>
+        </div>
+
+        <div class="input-container">
+          <label for="birthDay">BirthDay</label>
+          <input type="date" id="signUpBirthDay" formControlName="birthDay" required>
+        </div>
+
+        <button type="button" (click)="signUp()">הירשם</button>
+      </div>
+    </form>
+  </div>
+</div>

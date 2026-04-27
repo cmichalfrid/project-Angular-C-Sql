@@ -1,0 +1,21 @@
+<div>
+
+  <a class="product-item">
+    <div class="product-card"> פרטי המוצר<div class="product-info">
+        <h3>{{ ProductToDisplay.productName }}</h3>
+        <img src="{{ProductToDisplay.picture}}" style="width: 200px; height: 200px;">
+        <p><strong>Description:</strong> {{ ProductToDisplay.productDes }}</p>
+        <p><strong>Price:</strong> ${{ ProductToDisplay.price }}</p>
+        <p><strong>Age:</strong> {{ ProductToDisplay.targetAge }}+</p>
+        <p><strong>lastUpdate:</strong> {{ ProductToDisplay.lastUpdate }}</p>
+        <p><strong>Category Name:</strong> {{ ProductToDisplay.categoryName }}</p>
+        <p><strong>Company Name:</strong> {{ ProductToDisplay.companyName }}</p>
+
+      </div>
+    </div>
+    <button (click)="return()" class="back-button">חזור לרשימת משחקים</button><br>
+    <button (click)="add_to_shopping_cart(ProductToDisplay)" class="add-to-cart-button"><i
+        class="fas fa-shopping-cart"></i>הוסף לסל</button>
+  </a>
+
+</div>

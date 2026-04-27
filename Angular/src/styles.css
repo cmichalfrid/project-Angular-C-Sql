@@ -1,0 +1,473 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-menu a i {
+    margin-right: 8px; /* מרווח בין האייקון לטקסט */
+  }
+  
+  .nav-menu a:hover {
+    color: #007bff;
+  }
+  
+  .nav-menu .active {
+    font-weight: bold;
+  }
+/* עיצוב בסיסי לתפריט */
+nav {
+    background-color: #3333333c;
+    padding: 5px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* הופך את התפריט לשורה אחת */
+    justify-content: center; /* ממרכז את הפריטים */
+  }
+  
+  .nav-menu li {
+    display: inline; /* מבטיח שכל פריט יוצג בשורה אחת */
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: inline-block; /* מבטיח שהקישורים יהיו על אותו קו */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* אפקט hover */
+  .nav-menu a:hover,
+  .nav-menu a.active {
+    background-color: #555;
+    color: #ff0;  /* צבע מובהק כששמים עכבר */
+  }
+  
+  /* קישור פעיל */
+  .nav-menu a[aria-current="page"] {
+    font-weight: bold;
+    border-bottom: 2px solid #ff0;
+  }
+  
+  /* עיצוב לניידים */
+  @media (max-width: 768px) {
+    .nav-menu {
+      flex-direction: row; /* תצוגה בשורה אחת גם בנייד */
+      justify-content: center; /* מרכז את התפריט */
+    }
+  
+    .nav-menu a {
+      padding: 15px;
+      font-size: 18px;
+    }
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .age-filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .age-filter label {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .age-filter input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 120px;
+  }
+  
+  .age-filter button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .age-filter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .product-card h3 {
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:#007bff; /* צבע ירוק */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #007bff; /* שינוי צבע בעת ריחוף */
+    transform: scale(1.05); /* אנימציה של הגדלה */
+  }
+  
+  .back-button:focus {
+    outline: none; /* מסיר את הגבול של הפוקוס */
+  }
+  .add-to-cart-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* צבע כתום */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-to-cart-button i {
+    margin-right: 10px; /* רווח בין האייקון לטקסט */
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #007bff; /* שינוי צבע בעת ריחוף */
+    transform: scale(1.05); /* אנימציה של הגדלה */
+  }
+  
+  .add-to-cart-button:focus {
+    outline: none; /* מסיר את הגבול של הפוקוס */
+  }
+  
+  #emptycart {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f2ff00;
+    margin-top: 50px;
+  } 
+
+  .hero-section {
+  /* background-image: url('assets/images/hero-background.jpg'); */
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.search-bar {
+  width: 60%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+#categories {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#category-card {
+  width: 200px;
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  margin-top: 30px;
+}
+
+.deals-card {
+  background-color: #f8d7da;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+img{
+  max-width: 120%;
+  height: auto;
+}
+.delete-button {
+  background-color: #f4e136; /* צבע אדום */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button .icon-minus {
+  font-size: 18px;
+  margin-right: 8px; /* מרווח בין האייקון לטקסט */
+}
+
+.delete-button:hover {
+  background-color: #cbd32f; /* צבע אדום כהה בהעברת עכבר */
+}
+select {
+  width: 200px;
+  padding: 8px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+option {
+  font-size: 14px;
+}
+/* עיצוב כללי של הטופס */
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f4f4f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* כותרת */
+h1 {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* עיצוב של התוויות */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* עיצוב של השדות */
+input[type="text"], input[type="email"], input[type="date"], input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* ספציפי לכל שדה */
+#checkPhoneNumber {
+  border-color: #ff6347;
+}
+
+#signUpFullName {
+  border-color: #4CAF50;
+}
+
+#signUpPhoneNumber {
+  border-color: #ff6347;
+}
+
+#signUpEmail {
+  border-color: #2196F3;
+}
+
+#signUpBirthDay {
+  border-color: #FFC107;
+}
+
+/* עיצוב של כפתור */
+#a {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* הודעת טעות או הצלחה */
+div.error-message, div.success-message {
+  text-align: center;
+  color: #ff6347;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+/* עיצוב של שדות חובה */
+input[required] {
+  border: 1px solid #ff6347;
+}
+
+.main-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.game-card {
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.game-card:hover {
+  transform: translateY(-10px);
+}
+
+.game-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.game-card h3 {
+  margin: 15px 0 10px;
+  font-size: 1.25rem;
+}
+
+.game-card p {
+  margin: 0 10px 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* רקע שקוף מאחורי החלונית */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* עיצוב החלונית */
+.popup {
+  background: white;
+  width: 50%; /* חלונית שתופסת חצי מסך */
+  max-width: 600px; /* הגבלת רוחב מקסימלי */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+
+/* עיצוב שדות הטופס */
+.input-container {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* כפתור */
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

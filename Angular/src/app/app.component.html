@@ -1,0 +1,16 @@
+<nav>
+    <ul class="nav-menu">
+        <li>
+            <a routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <i class="fas fa-home"></i>Home</a>
+        </li>
+        <li> <a routerLink="/products" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <i class="fas fa-box"></i>Product</a></li>
+        <li><a routerLink="/myShoppingCart" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <i class="fas fa-shopping-cart"></i>My Shopping Cart</a></li>
+        <li><a routerLink="/singIn" routerLinkActive="active" ariaCurrentWhenActive="page">
+                <i class="fas fa-user"></i>Sign In</a></li>
+        <p>{{name1}}</p>
+    </ul>
+</nav>
+<router-outlet></router-outlet>
